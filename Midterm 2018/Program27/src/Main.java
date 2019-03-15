@@ -1,4 +1,16 @@
- /*  Instructions:  *********************************************************************************************************
+//    d8b          888b     d888                   d8b           .d8888b.
+//    Y8P          8888b   d8888                   Y8P          d88P  Y88b
+//                 88888b.d88888                                Y88b.
+//    888 .d8888b  888Y88888P888  8888b.   .d88b.  888  .d8888b  "Y888b.    .d88888 888  888  8888b.  888d888  .d88b.
+//    888 88K      888 Y888P 888     "88b d88P"88b 888 d88P"        "Y88b. d88" 888 888  888     "88b 888P"   d8P  Y8b
+//    888 "Y8888b. 888  Y8P  888 .d888888 888  888 888 888            "888 888  888 888  888 .d888888 888     88888888
+//    888      X88 888   "   888 888  888 Y88b 888 888 Y88b.    Y88b  d88P Y88b 888 Y88b 888 888  888 888     Y8b.
+//    888  88888P' 888       888 "Y888888  "Y88888 888  "Y8888P  "Y8888P"   "Y88888  "Y88888 "Y888888 888      "Y8888
+//                                             888                              888
+//                                        Y8b d88P                              888
+//                                         "Y88P"                               888
+
+/*  Instructions:  *********************************************************************************************************
  *                                                                                                                          *
  *   Write a method called isMagicSquare that accepts a two-dimensional array of integers as a parameter and returns true   *
  *      if it is a magic square. A square matrix is a magic square if it is square in shape                                 *
@@ -68,7 +80,6 @@ public class Main
         {
             System.out.print( "DEBUG: Matrix is square\n" );
 
-///* TODO implement algorithm to check if MagicSquare */
             int[] rowSum = new int[ rows ];
             int[] columnSum = new int[ columns ];
             int diagonalSum1 = 0;
@@ -115,7 +126,7 @@ public class Main
 //                System.out.print( "\n" );
 //                System.out.print( "diagonalSum1 " + diagonalSum1 + "\n" );
 //                System.out.print( "diagonalSum2 " + diagonalSum2 + "\n" );
-//    /* TODO END OF DEBUG */
+//    /* END OF DEBUG */
 
             for ( int rowIndex = 0 ; rowIndex < rows-1 ; rowIndex++ )
             {
