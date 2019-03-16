@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9840c10-94a5-4ba9-b05d-ddd21a9fad1b" name="Default Changelist" comment="">
+    <list default="true" id="b7c85774-32cb-4b0a-bbc4-f10a6cd4c48f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DigitSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../8QueensByRow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../8QueensByRow/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../8QueensByRow/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8QueensByRow/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Array2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Array2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maximum Span/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Maximum Span/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Maximum Span/src/Version2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program27/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Program27/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,11 +20,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="820358639">
+    <session id="-1971204213">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
@@ -33,7 +34,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4259" />
+          <entry key="JAVA" value="1188" />
         </counts>
       </usages-collector>
     </session>
@@ -41,12 +42,15 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/DigitSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+            <state relative-caret-position="139">
+              <caret line="28" column="12" selection-end-line="82" />
               <folding>
-                <element signature="e#0#10700#0" expanded="true" />
+                <element signature="e#0#2050#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2777#2778#0" expanded="true" />
+                <element signature="e#2820#2821#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,11 +71,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/DigitSum.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="1" fullScreen="true">
     <option name="y" value="27" />
     <option name="width" value="1366" />
     <option name="height" value="741" />
@@ -88,8 +92,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="Program27" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Program27" type="462c0819:PsiDirectoryNode" />
+              <item name="digitSum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="digitSum" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -98,9 +102,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552649188608" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../figlet-master" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552729322577" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -115,16 +118,16 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Program27" />
+    <configuration name="DigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DigitSum" />
+      <module name="digitSum" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DigitSum" />
       </list>
     </recent_temporary>
   </component>
@@ -133,16 +136,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c9840c10-94a5-4ba9-b05d-ddd21a9fad1b" name="Default Changelist" comment="" />
-      <created>1552638126794</created>
+      <changelist id="b7c85774-32cb-4b0a-bbc4-f10a6cd4c48f" name="Default Changelist" comment="" />
+      <created>1552727255743</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552638126794</updated>
+      <updated>1552727255743</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-26" width="1366" height="794" extended-state="0" />
+    <frame x="0" y="-26" width="1366" height="794" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -154,10 +158,10 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.3294271" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3294271" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294271" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -176,12 +180,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/DigitSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+        <state relative-caret-position="139">
+          <caret line="28" column="12" selection-end-line="82" />
           <folding>
-            <element signature="e#0#10700#0" expanded="true" />
+            <element signature="e#0#2050#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2777#2778#0" expanded="true" />
+            <element signature="e#2820#2821#0" expanded="true" />
           </folding>
         </state>
       </provider>
