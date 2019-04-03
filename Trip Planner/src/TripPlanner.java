@@ -48,6 +48,21 @@
  *    Your total budget in EUR is 5950.0 EUR, which per day is 191.93 EUR                               *
  *    ***********                                                                                       *
  *                                                                                                      *
+ ********************************************************************************************************
+ *  def timeDifference():                                                                               *
+ *      ''' None -> None                                                                                *
+ *      you’ll need to ask the user about the time difference between their home and                    *
+ *      where they are going.                                                                           *
+ *      '''                                                                                             *
+ *      # write your code here                                                                          *
+ *                                                                                                      *
+ *  Sample output:                                                                                      *
+ *    student@lab4:~$                                                                                   *
+ *    What is the time difference, in hours, between your home and your destination? 4                  *
+ *    That means that when it is midnight at home it will be 4:00 in your travel destination and when   *
+ *    it's noon at home it will be 16:00                                                                *
+ *    ***********                                                                                       *
+ *                                                                                                      *
  ********************************************************************************************************/
 
 
@@ -64,10 +79,10 @@ public class TripPlanner
         // greeting();
 
         // Part 2: Travel Time and Budget
-        travelTimeBudget();
+        // travelTimeBudget();
 
         // Part 3: Time difference
-        // timeDifference();
+        timeDifference();
 
         // Part 4: Country Area
         // countryArea();
@@ -112,6 +127,17 @@ public class TripPlanner
     public static void timeDifference()
     {
         // write your code here
+        Scanner input = new Scanner( System.in );
+        int timeDifference;
+        System.out.print( "What is the time difference, in hours, between your home and your destination? " ); timeDifference = input.nextInt();
+
+        if ( timeDifference >= 12 )
+        {
+            timeDifference -= 12;
+        }
+
+        System.out.printf( "That means that when it is midnight at home it will be %d:00 in your travel destination and when it's noon at home it will be %d:00\n", timeDifference, timeDifference + 12 );
+        System.out.print( "***********" );
     }
 
     public static void countryArea()
